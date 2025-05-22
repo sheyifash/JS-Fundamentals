@@ -1,12 +1,12 @@
 function school(students, books) {
-    if (!students && !books) {
+   if (!students && !books) {
         console.log("No argument")
-    } else if (students || books) {
-        console.log("Argument found")
-    } else {
+    } else if (students && books) {
         console.log("Arguments found")
+    } else {
+        console.log("Argument found")
     }
 }
-school(students="Bisi")
 school()
-school(students="Bisi" books="sugar gorl")
+school(students="Bsi")
+school(students="Bisi", books="sugar gorl")
