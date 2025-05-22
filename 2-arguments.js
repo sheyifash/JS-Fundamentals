@@ -8,5 +8,5 @@ function school(students, books) {
     }
 }
 school()
-school(students="Bsi")
-school(students="Bisi", books="sugar gorl")
+school("Bsi")
+school("Bisi", "sugar gorl")
