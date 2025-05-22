@@ -8,3 +8,5 @@ function school(students, books) {
     }
 }
 school(students="Bisi")
+school()
+school(students="Bisi" books="sugar gorl")
